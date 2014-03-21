@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Algorithms
 {
@@ -25,6 +21,11 @@ namespace Algorithms
 
             var value = BinarySearch.BSearch(10, myArray);
             
+            // merge sort
+
+            int[] mergeSorted = MergeSort.Sort(array);
+
+
             Console.ReadKey();
         }
     }
